@@ -1,0 +1,103 @@
+
+  
+h4 {
+    color: white;
+    margin-left: 12px;
+}
+
+.navbar {
+    border: solid black 1px;
+    display: flex;
+    justify-content: center;
+    justify-content: space-between;
+    background-color: black;
+    position: sticky;
+    top: 0;
+}
+
+.navbar .listitems {
+    list-style: none;
+    display: flex;
+    gap: 12px;
+    font-size: small;
+    padding-right: 15px;
+    padding-left: 15px;
+    align-items: center;
+}
+
+li {
+    font-family: 'Mochiy Pop One', sans-serif;
+
+}
+
+a {
+    text-decoration: none;
+}
+
+a:link {
+    color: grey;
+}
+
+a:visited {
+    color: blue
+}
+
+a:hover {
+    color: white;
+}
+
+a:active {
+    color: red;
+}
+
+.navbar .listitems .box .item5 {
+    border: 1px solid #f0e68ca8;
+    border-radius: 4px;
+    padding: 5px;
+}
+
+.navbar .listitems .box .item5 a:link {
+    color: #f0e68ca8;
+}
+
+.navbar .listitems .box .item5 a:visited {
+    color: blue;
+}
+
+.navbar .listitems .box .item5 a:hover {
+    color: white;
+}
+
+.navbar .listitems .box .item5 a:active {
+    color: red;
+}
+.PWSkills{
+    border: 2px solid black;
+} 
+
+.webdev {
+    height: 200px;
+    width: 200px;
+    border: 2px solid black;
+    border-radius: 5px;
+}
+
+.datasci {
+    height: 200px;
+    width: 200px;
+    border: 2px solid black;
+    border-radius: 5px;
+}
+
+.dataanaly {
+    border: 2px solid black;
+    border-radius: 5px;
+}
+.dsa {
+    border: 2px solid black;
+    width: 300px;
+    border-radius: 5px;
+}
+ .heading1{
+    text-decoration: underline;
+ }

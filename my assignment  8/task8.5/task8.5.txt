@@ -1,0 +1,18 @@
+1.z-index:
+
+>..The z-index property in CSS controls which element should appear on the screen when more than one are vertically 
+overlaping each other.
+
+ ..the element having higher the z-index gets higher priority to appear on the screen.
+ ..syntax: z-index: auto (by default);
+                   :number(can also be negative);
+                   :initial;
+                   :inherit;
+
+    explanation about example:
+
+ ..in the example  i have shown that by default ramanujan picture was being shown on the top
+  but when we gave Dr.ramanujan picture lowest z-index value and Dr. A.P.J Abdul kalam picture highest z-index
+  value than scenerio gets reverse. now Dr. A.P.J Abdul kalam picture is coming on top (visible on the screen) 
+  and Dr.ramanujan picture is coming on the the last from the top (now not visible).
+ 

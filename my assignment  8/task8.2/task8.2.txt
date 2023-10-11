@@ -1,0 +1,23 @@
+1.difference between relative and absolute positioning in css:
+  >css position-relative:
+   ..when we give any element relative position it  behaves same as static.
+   ..but when we apply its property (like: top ,bottom,left, right) by giving 
+     some value it  displaces with respect to its normal original place not with respect to its 
+     parent or viewport.
+   ..after displacing the element the gap is created which not filled by neighbour 
+     elements.
+   ..when we displace element in relative positioning it displace it self relative
+     to its normal original position without disturbing other elements.
+   ..other space proprties like height ,width ,padding ,margin will disturb neighbour
+     elements.
+     
+   >css position absolute:
+    ..when we give any element absolute position it goes out of normal flow of document.
+    ..remove from normal flow can overlap the element.
+    ..when we apply its property (like: top ,bottom,left, right) by giving 
+      some value it  displaces from its place with respect to its nearest parent.
+    ..nearest positioning should be relative otherwise it will consider the whole body 
+      as its relative parent.
+    ..after displacing the element the gap is created which is filled by its neighbour 
+      elements.
+    
